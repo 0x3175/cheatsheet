@@ -1,6 +1,11 @@
 {
     "name": "cheatsheet",
+    "publisher": "1u",
     "displayName": "Cheatsheet",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/0x3175/cheatsheet.git"
+    },
     "description": "Quickly search and view cheatsheets in the docs folder.",
     "version": "0.0.1",
     "engines": {
