@@ -1,0 +1,22 @@
+# Cheatsheet VS Code Extension
+
+Quickly search and view markdown cheatsheets from your project's `docs/` folder directly from the VS Code sidebar.
+
+## Features
+
+-   **Sidebar Browser**: A dedicated activity bar icon to browse all markdown files in the `docs/` directory.
+-   **Markdown Preview**: Click any document to instantly view its rendered version.
+-   **Quick Search**: Focus the sidebar list and start typing to filter the available cheatsheets.
+
+## Getting Started
+
+### Development & Testing
+1.  Open the workspace in VS Code.
+2.  Press `F5` to launch the **Extension Development Host**.
+3.  Click the **Cheatsheet** icon in the sidebar (Activity Bar) of the new window.
+
+### Structure
+-   `extension.js`: Main logic for the sidebar tree view and file-opening commands.
+-   `package.json`: Extension manifest and layout contribution.
+-   `resources/`: Static assets like the sidebar icon.
+-   `docs/`: Folder where your markdown cheatsheets should be placed.

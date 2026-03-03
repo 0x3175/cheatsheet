@@ -1,0 +1,43 @@
+{
+    "name": "cheatsheet",
+    "displayName": "Cheatsheet",
+    "description": "Quickly search and view cheatsheets in the docs folder.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.80.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [],
+    "main": "./extension.js",
+    "contributes": {
+        "viewsContainers": {
+            "activitybar": [
+                {
+                    "id": "cheatsheet-viewer",
+                    "title": "Cheatsheet",
+                    "icon": "resources/icon.svg"
+                }
+            ]
+        },
+        "views": {
+            "cheatsheet-viewer": [
+                {
+                    "id": "cheatsheet-list",
+                    "name": "Docs"
+                }
+            ]
+        },
+        "commands": [
+            {
+                "command": "cheatsheet.openFile",
+                "title": "Open Cheatsheet"
+            }
+        ]
+    },
+    "devDependencies": {
+        "@types/vscode": "^1.80.0",
+        "eslint": "^8.41.0"
+    }
+}

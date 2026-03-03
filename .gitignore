@@ -7,7 +7,6 @@ yarn.lock
 
 .DS_Store
 .cache
-.vscode
 .idea
 .snap
 .env
