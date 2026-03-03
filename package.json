@@ -22,7 +22,7 @@
                 {
                     "id": "cheatsheet-viewer",
                     "title": "Cheatsheet",
-                    "icon": "resources/icon.svg"
+                    "icon": "icon.svg"
                 }
             ]
         },

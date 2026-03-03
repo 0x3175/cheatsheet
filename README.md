@@ -18,5 +18,4 @@ Quickly search and view markdown cheatsheets from your project's `docs/` folder 
 ### Structure
 -   `extension.js`: Main logic for the sidebar tree view and file-opening commands.
 -   `package.json`: Extension manifest and layout contribution.
--   `resources/`: Static assets like the sidebar icon.
 -   `docs/`: Folder where your markdown cheatsheets should be placed.
