@@ -1,4 +1,0 @@
-{
-  "**/*.{mjs,css,json,prettierrc,lintstagedrc}": ["prettier --write"],
-  "./docs/*.md": ["npx markdownlint-cli --fix ./docs"]
-}
