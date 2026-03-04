@@ -28,3 +28,7 @@ The way to publish is via the **Web UI**:
 1.  **Install**: Install the npm package `vsce` by running `npm install -g vsce`.
 2.  **Package**: Run `vsce package`. This generates a `.vsix` file.
 3.  **Upload**: Go to the [Marketplace Management Portal](https://marketplace.visualstudio.com/manage) and upload the `.vsix` file.
+
+## Acknowledgements
+
+**Credits:** [Quick Reference Cheatsheets](https://github.com/jaywcjlove/reference) by jaywcjlove.
