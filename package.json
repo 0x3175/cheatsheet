@@ -8,7 +8,7 @@
         "url": "https://github.com/0x3175/cheatsheet.git"
     },
     "description": "Quickly search and view cheatsheets.",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "icon": "icon.png",
     "engines": {
         "vscode": "^1.80.0"
