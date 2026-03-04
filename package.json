@@ -6,8 +6,9 @@
         "type": "git",
         "url": "https://github.com/0x3175/cheatsheet.git"
     },
-    "description": "Quickly search and view cheatsheets in the docs folder.",
-    "version": "0.0.1",
+    "description": "Quickly search and view cheatsheets.",
+    "version": "0.0.2",
+    "icon": "icon.png",
     "engines": {
         "vscode": "^1.80.0"
     },
@@ -22,7 +23,7 @@
                 {
                     "id": "cheatsheet-viewer",
                     "title": "Cheatsheet",
-                    "icon": "icon.svg"
+                    "icon": "icon.png"
                 }
             ]
         },
@@ -38,6 +39,18 @@
             {
                 "command": "cheatsheet.openFile",
                 "title": "Open Cheatsheet"
+            },
+            {
+                "command": "cheatsheet.focus",
+                "title": "Focus Cheatsheet"
+            }
+        ],
+        "keybindings": [
+            {
+                "command": "cheatsheet.focus",
+                "key": "cmd+shift+c",
+                "mac": "cmd+shift+c",
+                "when": "!sideBarVisible || activeViewlet !== 'cheatsheet-viewer'"
             }
         ]
     },

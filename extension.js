@@ -81,6 +81,10 @@ function activate(context) {
         vscode.commands.executeCommand('markdown.showPreview', resource);
     });
 
+    vscode.commands.registerCommand('cheatsheet.focus', () => {
+        vscode.commands.executeCommand('workbench.view.extension.cheatsheet-viewer');
+    });
+
     vscode.commands.registerCommand('cheatsheet.refresh', () => cheatsheetProvider.refresh());
 }
 

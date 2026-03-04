@@ -1,12 +1,13 @@
 # Cheatsheet VS Code Extension
 
-Quickly search and view markdown cheatsheets from your project's `docs/` folder directly from the VS Code sidebar.
+Quickly search and view markdown cheatsheets directly from the VS Code sidebar.
 
 ## Features
 
--   **Sidebar Browser**: A dedicated activity bar icon to browse all markdown files in the `docs/` directory.
+-   **Sidebar Browser**: A dedicated activity bar icon to browse all markdown files.
 -   **Markdown Preview**: Click any document to instantly view its rendered version.
 -   **Quick Search**: Focus the sidebar list and start typing to filter the available cheatsheets.
+-   **Keybindings**: Use `cmd+shift+c` to quickly open and focus the Cheatsheet sidebar.
 
 ## Getting Started
 
@@ -18,11 +19,11 @@ Quickly search and view markdown cheatsheets from your project's `docs/` folder 
 ### Structure
 -   `extension.js`: Main logic for the sidebar tree view and file-opening commands.
 -   `package.json`: Extension manifest and layout contribution.
--   `docs/`: Folder where your markdown cheatsheets should be placed.
+-   `docs/`: Folder where markdown cheatsheets should be placed.
 
 ## Publishing
 
-The easiest way to publish is via the **Web UI**:
+The way to publish is via the **Web UI**:
 
 1.  **Install**: Install the npm package `vsce` by running `npm install -g vsce`.
 2.  **Package**: Run `vsce package`. This generates a `.vsix` file.
