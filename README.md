@@ -1,4 +1,4 @@
-# Cheatsheet VS Code Extension
+# [Cheatsheet VS Code Extension](https://marketplace.visualstudio.com/items?itemName=1u.cheatsheet-viewer)
 
 Quickly search and view markdown cheatsheets directly from the VS Code sidebar.
 
