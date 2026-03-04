@@ -2,6 +2,7 @@
     "name": "cheatsheet-viewer",
     "publisher": "1u",
     "displayName": "Cheatsheet",
+    "license": "MIT",
     "repository": {
         "type": "git",
         "url": "https://github.com/0x3175/cheatsheet.git"
