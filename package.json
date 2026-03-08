@@ -55,8 +55,12 @@
             }
         ]
     },
+    "scripts": {
+        "pack": "vsce package"
+    },
     "devDependencies": {
         "@types/vscode": "^1.80.0",
+        "@vscode/vsce": "^3.7.1",
         "eslint": "^8.41.0"
     }
 }

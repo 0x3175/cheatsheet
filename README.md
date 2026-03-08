@@ -25,8 +25,8 @@ Quickly search and view markdown cheatsheets directly from the VS Code sidebar.
 
 The way to publish is via the **Web UI**:
 
-1.  **Install**: Install the npm package `vsce` by running `npm install -g vsce`.
-2.  **Package**: Run `vsce package`. This generates a `.vsix` file.
+1.  **Install**: Install the npm package `vsce` by running `npm i`.
+2.  **Package**: Run `npm run pack`. This generates a `.vsix` file.
 3.  **Upload**: Go to the [Marketplace Management Portal](https://marketplace.visualstudio.com/manage) and upload the `.vsix` file.
 
 ## Acknowledgements
